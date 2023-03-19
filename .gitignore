@@ -1,0 +1,25 @@
+*pkr.hcl
+*pkr.hcl-cleanpwd
+
+
+# Terraform files
+.terraform
+.terraform.lock.hcl
+.terraform.tfstate.lock.info
+terraform.tfstate.backup
+terraform.tfstate
+plan.out
+30_pk_tf
+
+# Python files
+Pipfile
+__pycache__
+.mypy_cache
+
+# Build artifacts
+agent
+id_rsa
+
+.vscode
+.DS_Store
+terraform.tfvars
